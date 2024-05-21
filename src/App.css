@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Todo css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label,
+input,
+textarea
+ {
+  display: block;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-card.completed {
+  background-color: #e6ffe6;
+}
+
+.todo-card.not-completed {
+  background-color: #ffe6e6;
+}
+
+.todo-list {
+  text-align: left;
+  display: flex;
+  align-items: center;
+gap: 20px;
+}
+.add-btn {
+  background-color: green;
+  color: #fff;
+  padding: 6px;
+  height: 37px;
+  margin-top: 24px;
+}
+.edit-btn {
+    background-color: rgb(21, 21, 58);
+  color: #fff;
+  padding: 6px;
+  height: 37px;
+  margin-top: 24px;
+}
+.delete-btn{
+  background-color: red;
+  color: #fff;
+  padding: 6px;
+  height: 37px;
+  margin-top: 24px;
+
+}
